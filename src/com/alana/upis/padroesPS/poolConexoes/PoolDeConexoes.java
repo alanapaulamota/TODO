@@ -2,14 +2,10 @@ package com.alana.upis.padroesPS.poolConexoes;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class PoolDeConexoes {
 	private static volatile PoolDeConexoes instance;
